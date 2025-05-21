@@ -471,6 +471,7 @@ def save_results(results_data, file_path=None):
 
 def main():
     global TOP_K, OUTPUT_DIR, OUTPUT_FILENAME, OUTPUT_FILE_PATH
+    global PATIENT_EMBEDDING_DIR, PATIENT_EMBEDDINGS_FILE, PATIENT_ID_MAP_FILE, PATIENT_DATA_FILE
     parser = argparse.ArgumentParser(description='Medical RAG System - Dual Path Retrieval')
     parser.add_argument('--query', type=str, help='Patient symptom description')
     parser.add_argument('--input-file', type=str, help='Input file containing multiple patient queries')
@@ -487,7 +488,6 @@ def main():
     args = parser.parse_args()
 
     if args.patient_data_dir:
-        global PATIENT_EMBEDDING_DIR, PATIENT_EMBEDDINGS_FILE, PATIENT_ID_MAP_FILE, PATIENT_DATA_FILE
         PATIENT_EMBEDDING_DIR = args.patient_data_dir
         PATIENT_EMBEDDINGS_FILE = os.path.join(PATIENT_EMBEDDING_DIR, 'embeddings.npy')
         PATIENT_ID_MAP_FILE = os.path.join(PATIENT_EMBEDDING_DIR, 'id_to_index.pkl')
