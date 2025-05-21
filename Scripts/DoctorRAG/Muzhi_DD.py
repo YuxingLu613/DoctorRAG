@@ -37,7 +37,7 @@ KNOWLEDGE_EMBEDDINGS_FILE = "../../Knowledge_Base/Chinese_Knowledge_Base/chinese
 KNOWLEDGE_ORIGINAL_CSV = "../../Knowledge_Base/Chinese_Knowledge_Base/chinese_processed.csv"
 KNOWLEDGE_METADATA_FILE = "../../Knowledge_Base/Chinese_Knowledge_Base/embeddings_metadata.json"
 OUTPUT_DIR = '../../Outputs/Muzhi_DD/deepseek'
-OUTPUT_FILENAME = 'deepseek_results_1.json'
+OUTPUT_FILENAME = 'deepseek_results.json'
 OUTPUT_FILE_PATH = os.path.join(OUTPUT_DIR, OUTPUT_FILENAME)
 
 API_KEY = "YOUR_API_KEY"
