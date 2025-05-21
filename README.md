@@ -4,7 +4,7 @@
 
 ## Figure
 
-![image](https://github.com/YuxingLu613/DoctorRAG/blob/main/DoctorRAG%20Overview.pdf)
+![image](https://github.com/YuxingLu613/DoctorRAG/blob/main/DoctorRAG%20Overview.png)
 
 *Figure: Overview of the DoctorRAG framework, illustrating the integration of medical knowledge and patient analogical reasoning via Med-TextGrad.*
 
