@@ -111,16 +111,10 @@ DoctorRAG/
 
 ## Citation
 
-If you use this code or data, please cite our paper:
-
----
-
-## License
-
-[Specify your license here, e.g., MIT, Apache 2.0, etc.]
+If you use this code or data, please cite our paper (TBA):
 
 ---
 
 ## Contact
 
-For questions or collaborations, please contact [your.email@domain.com].
+For questions or collaborations, please contact [yxlu0613@gmail.com].
