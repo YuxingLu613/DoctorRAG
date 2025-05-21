@@ -36,7 +36,7 @@ PATIENT_METADATA_PATH = "../../Patient_Base/DDXPlus_FR/patient_metadata.pkl"
 OUTPUT_DIR = "../../Outputs/DDXPlus_FR/deepseek"
 TEST_DATA_PATH = "../../Datasets/DDXPlus_FR/shuffled_new_with_id.csv"
 EMBEDDING_CACHE_PATH = os.path.join(OUTPUT_DIR, "embedding_cache_evidences.pkl")
-RESULT_FILE = os.path.join(OUTPUT_DIR, "ddxplus_disease_predictions_evidences_only.json")
+RESULT_FILE = os.path.join(OUTPUT_DIR, "ddxplus_disease_predictions.json")
 TOKEN_USAGE_LOG_PATH = os.path.join(OUTPUT_DIR, "token_usage_log.json")
 
 MODEL_API_KEY = "YOUR_API" 
