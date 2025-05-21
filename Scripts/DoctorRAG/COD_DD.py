@@ -39,7 +39,7 @@ MODEL_NAME = "YOUR_MODEL_NAME"
 
 INPUT_FILE = "../../Datasets/COD_DD/COD_DD_test.csv"
 OUTPUT_DIR = "../../Outputs/COD_DD/deepseek"
-RESULT_FILE = os.path.join(OUTPUT_DIR, "deepseek_results_1.json")
+RESULT_FILE = os.path.join(OUTPUT_DIR, "deepseek_results.json")
 TOKEN_USAGE_FILE = os.path.join(OUTPUT_DIR, "token_usage.json")
 
 PATIENT_INDEX_DIR = "../../Datasets/COD_DD/COD_DD_test_index"
